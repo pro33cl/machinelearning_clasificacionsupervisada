@@ -1,0 +1,59 @@
+# === Python general ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# === Entorno virtual ===
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === VSCode ===
+.vscode/
+
+# === Archivos temporales del sistema ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Archivos de logs o salida ===
+*.log
+*.out
+*.tmp
+
+# === Bases de datos temporales ===
+*.sqlite3
+
+# === Archivos de configuración personal ===
+*.env
+.env.*
+
+# === Pytest / Cobertura ===
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# === mypy / pylint / flake8 ===
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+
+# === archivos de lock y dependencias (opcional) ===
+poetry.lock
+Pipfile.lock
